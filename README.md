@@ -51,7 +51,7 @@ php task-cli.php mark-in-progress 1
 php task-cli.php mark-done 1
 ```
 
-###📋 List All Tasks
+### 📋 List All Tasks
 ```bash
 php task-cli.php list
 ```
