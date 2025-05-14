@@ -33,27 +33,32 @@ Task Tracker CLI is a simple Command Line Interface application for adding, upda
 ### ➕ Add a Task
 ```bash
 php task-cli.php add "Learn PHP CLI"
+```
 
 ### ✏️ Update a Task
 ```bash
 php task-cli.php update 1 "Learn PHP CLI in depth"
+```
 
 ### 🗑️ Delete a Task
 ```bash
 php task-cli.php delete 1
+```
 
 ### 🔁 Mark a Task Status
 ```bash
 php task-cli.php mark-in-progress 1
 php task-cli.php mark-done 1
+```
 
 ###📋 List All Tasks
 ```bash
 php task-cli.php list
+```
 
 ### 📌 List Tasks by Status
 ```bash
 php task-cli.php list todo
 php task-cli.php list in-progress
 php task-cli.php list done
-
+```
